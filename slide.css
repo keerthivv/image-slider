@@ -1,0 +1,50 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(104, 6, 101);
+    color: white;
+    margin: 0;
+    height: 100vh;
+}
+.slider-arrow{
+    font-size: 4rem;
+    cursor: pointer;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 3rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.slider{
+    display: flex;
+    transition: all 1s ease;
+}
+.frame{
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bottom{
+    display: flex;
+    gap: 20px;
+}
+.button{
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: 1px solid white;
+cursor: pointer;
+}
